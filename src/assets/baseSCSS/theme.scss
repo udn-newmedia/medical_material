@@ -1,0 +1,186 @@
+hr { 
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #757575;
+  margin: 1em 0; padding: 0;
+}
+
+.title {
+  color: #d84c4c;
+  font-size: 26px;
+  font-weight: bolder;
+  padding-bottom: 15px;
+  @media screen and (max-width: 374px) {
+    font-size: 21px;            
+  }
+  @media screen and (min-width: 768px) {
+
+  }
+  @media screen and (min-width: 1024px) {
+
+  }
+}
+
+.subtitle {
+  background-color: #d84c4c;
+  color: white;
+  br {
+    @media screen and (min-width: 1024px) {
+      display: none;
+    }
+  }
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  .last-button, .next-button {
+    color: white;
+    padding: 12px 19px;
+    border-radius: 10px;
+    border: solid 1px white;
+    cursor: pointer;
+    @media screen and (min-width: 1024px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .last-button {
+    @media screen and (min-width: 1024px) {
+      min-width: 70px;
+      min-height: 70px;
+    }
+    
+  }
+  .next-button {
+    @media screen and (min-width: 1024px) {
+      min-width: 334px;
+    }
+  }
+}
+
+.page-share {
+  text-align: right;
+  color: white;
+  font-size:48px;
+  padding: 54px 0;
+  i {
+    cursor: pointer;
+  }
+}
+
+.theme-default {
+  color: white;
+  padding: 45px 0px 90px;
+  line-height: 1.72;
+  @media screen and (max-width: 374px) {
+    padding: 46px 0px 173px;   
+  }
+  @media screen and (min-width: 768px) {
+    padding: 70px 0px 87px;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 18px;
+  }
+  .mark {
+    color: #333333;
+    background-color: white;
+  }
+}
+
+.theme1 {
+  padding: 38px 0px 33px;
+  color: white;
+  @media screen and (max-width: 374px) {
+          
+  }
+  @media screen and (min-width: 768px) {
+    padding: 118px 0 67px 0;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 18px;
+    display: flex;
+    vertical-align: center;
+  }
+  .content-wrapper {
+    @media screen and (min-width: 1024px) {
+          width: 50%;
+          padding-right: 76px;
+    }
+  }
+  .image-wrapper {
+    @media screen and (min-width: 1024px) {
+        width: 50%;
+        margin-bottom: 0px;
+        margin-top: 64px;
+    }
+    img {
+        width: 100%;
+    }
+    .discribe {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.theme2 {
+    padding: 45px 0 125px;
+    color: white;
+    @media screen and (max-width: 374px) {
+      padding: 46px 0 101px;
+    }
+    @media screen and (min-width: 768px) {
+      padding: 106px 0 201px;
+    }
+    @media screen and (min-width: 1024px) {
+      padding: 70px 0 178px;
+      display: flex;
+      vertical-align: center;
+    }
+    .left, .right {
+      @media screen and (min-width: 1024px) {
+        width: 50%;
+      }
+    }
+    .left {
+      @media screen and (min-width: 1024px) {
+        padding-right: 76px;
+      }
+    }
+    .right {
+      @media screen and (min-width: 1024px) {
+         margin-top: 64px;
+      }
+     
+    }
+    p {
+      line-height: 2;
+    }
+    .mark {
+      background-color: #0f0d0c;
+      color: #e1ad80;
+    }
+    .img-wrapper {
+      width: 100%;
+      text-align: center;
+      .img-title {
+        margin: 50px 0 20px;
+        font-size: 18px;
+        font-weight: bold;
+        @media screen and (max-width: 374px) {
+
+        }
+        @media screen and (min-width: 768px) {
+          margin: 53px 0 20px;
+        }
+        @media screen and (min-width: 1024px) {
+          margin: 70px 0 30px;
+        }
+      }
+      img {
+        width: 100%;
+      }
+    }
+}
