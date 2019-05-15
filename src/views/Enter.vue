@@ -17,7 +17,7 @@
             <div class="title">
               全新包裝 仍有可能是二手貨
             </div>
-            <p>為了切除外痣的50幾歲李姓婦人，術前趴在手術檯上，醫護人員當場拆掉「<span @click="handleDictionary"><span class="subline">雙極電外科器械</span><span class="dictionary"><i class="i-qa"></i></span></span>」
+            <p>為了切除外痔的50幾歲李姓婦人，術前趴在手術檯上，醫護人員當場拆掉「<span @click="handleDictionary"><span class="subline">雙極電外科器械</span><span class="dictionary"><i class="i-qa"></i></span></span>」
               <span v-if="isExtend" class="dictionary-expend">
                 <p class="dictionary-title">小辭典：雙極電外科器械</p>
                 <br>

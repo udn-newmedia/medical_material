@@ -1,7 +1,7 @@
 <template>
   <div class="page3">
     <div class="container">
-      <div class="theme1">
+      <div class="theme1 section1">
         <div class="content-wrapper">
           <div class="title">
             <span class="subtitle">醫材重複使用<br>病患恐有感染風險</span>
@@ -16,10 +16,10 @@
           </div>
         </div>
       </div>
-      <div class="theme-default">
+      <div class="theme-default section2">
         <div class="content-wrapper">
           <div class="title">
-            <span class="subtitle">北榮曾爆瘧疾院感 釀4死</span>
+            <span class="title">北榮曾爆瘧疾院感 釀4死</span>
           </div>
           <p>民國84年，北榮爆發瘧疾疫情，6人罹患瘧疾，調查發現，屬於院內感染，感染者均在同一天下午接受電腦斷層掃描檢查，最後其中4人不幸死亡。</p>                             
           <br>                                 
@@ -37,6 +37,30 @@
       </div>
       </div>
       
+      <div class="theme-default section3">
+        <div class="content-wrapper">
+          <div class="title">
+            <span class="title">政府「核准」用單次 重複用卻不管？</span>
+          </div>
+          <p>滕西華舉某重複使用的醫材為例，該醫材仿單（使用說明書）上明確寫著「本產品為單次使用器械」，還加註「不可重新滅菌」，警告處甚至寫「本產品為單次使用器械，重新處理或多次使用可能影響產品結構」，代表連製造的廠商都不支持、不建議重複使用，仿單就跟吃藥一樣，若沒有按指示吃，吃錯得自己負責，但病人根本不知道自己用了什麼，用出問題誰要負責？</p>                             
+          <br>    
+          <img src="../../public/images/article-images/index_page3_article_img2.svg" alt="">
+          <br>
+          <br>
+        </div>
+        <div class="content">
+          <span class="mark">
+              “臨床實驗都認為只能單次，那重複使用的病人是在幫醫材做另一種臨床實驗嗎？” 
+          </span>
+        </div>
+        <br>
+        <br>
+        <p>滕西華直言，仿單都經過臨床實驗，是醫療體系必須遵守和依循的「聖經」，廠商會寫單次使用一定有其原因，如果真的像醫界說的使用無疑慮，廠商、政府跟醫療體系三方應該要告訴所有病患為什麼可以重複使用，否則所謂的「幫病人省錢」，可能省著省著就省出問題。</p>
+        <br>
+        <p>滕西華指出，醫材的管理權責在衛福部食藥署，如果經過政府核准的仿單是限單次使用，但醫院卻拿來重複用，「就是違法」，除非有文獻支持該醫材重複使用無疑慮，那政府該做的是請廠商改仿單，而不是讓醫界存在這種模糊地帶。</p>
+        <br>
+      </div>
+
       <div class="theme-default">
         <div class="title">
             醫師: 不該拿病患當理由
@@ -94,6 +118,20 @@ export default {
     .mark {
         color: #333333;
         background-color: white;
+    }
+  }
+  .section3 {
+    img {
+ 
+      @media screen and (max-width: 374px) {
+        
+      }
+      @media screen and (min-width: 768px) {
+
+      }
+      @media screen and (min-width: 1024px) {
+
+      }
     }
   }
 }
